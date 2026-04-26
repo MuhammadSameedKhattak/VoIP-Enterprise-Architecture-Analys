@@ -4,7 +4,7 @@
 Designed and deployed a Cisco Call Manager Express (CME) environment to establish intra-network SIP routing. Conducted live packet analysis on an Ubuntu machine to verify Layer 7 signaling and Layer 4 RTP media streams, ensuring optimal network health parameters (latency, jitter, and packet loss) for enterprise voice traffic.
 
 🏗️ **Topology & Infrastructure (Packet Tracer)**
-![Packet Tracer Topology](put-your-packet-tracer-filename-here.png)
+![Packet Tracer Topology]([put-your-packet-tracer-filename-here.png](https://github.com/MuhammadSameedKhattak/VoIP-Enterprise-Architecture-Analys/blob/main/Screenshot%20from%202026-04-26%2004-45-44.png?raw=true))
 * Configured Voice VLANs to separate telephony traffic from standard data.
 * Deployed DHCP pools with Option 150 to direct endpoints to the TFTP server.
 * Configured Layer 3 Dial-Peers to establish call routing between extensions.
