@@ -14,7 +14,7 @@ Designed and deployed a Cisco Call Manager Express (CME) environment to establis
 * **DHCP Option 150**: Deployed to direct endpoints to the TFTP server for configuration.
 * **Dial-Peers**: Configured Layer 3 routing between extensions 1001 and 1002.
 
-![Phones Connected](your-connected-phones-image-name.png)
+![Phones Connected](https://github.com/MuhammadSameedKhattak/VoIP-Enterprise-Architecture-Analys/blob/main/Screenshot%20from%202026-04-26%2004-45-44.png?raw=true.png)
 *Visual confirmation of successful registration and active call connection.*
 
 ---
