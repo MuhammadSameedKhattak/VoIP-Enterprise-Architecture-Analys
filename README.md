@@ -1,4 +1,4 @@
-# Enterprise VoIP Architecture & Traffic Analysis
+ni# Enterprise VoIP Architecture & Traffic Analysis
 
 📌 **Project Overview**
 Designed and deployed a Cisco Call Manager Express (CME) environment to establish intra-network SIP routing. Conducted live packet analysis on an Ubuntu machine to verify Layer 7 signaling and Layer 4 RTP media streams, ensuring optimal network health parameters (latency, jitter, and packet loss) for enterprise voice traffic.
@@ -25,4 +25,4 @@ Designed and deployed a Cisco Call Manager Express (CME) environment to establis
 
 * **SIP Handshake**: Captured and analyzed live signaling on Ubuntu loopback interface.
 * **Protocol Flow**: Verified the sequence of `INVITE`, `180 Ringing`, and `CANCEL` teardown.
-* **NOC Troubleshooting**: Demonstrates the ability to diagnose call setup failures at the packet level.
+* **Troubleshooting**: Demonstrates the ability to diagnose call setup failures at the packet level.
