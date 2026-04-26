@@ -3,15 +3,26 @@
 📌 **Project Overview**
 Designed and deployed a Cisco Call Manager Express (CME) environment to establish intra-network SIP routing. Conducted live packet analysis on an Ubuntu machine to verify Layer 7 signaling and Layer 4 RTP media streams, ensuring optimal network health parameters (latency, jitter, and packet loss) for enterprise voice traffic.
 
+---
+
 🏗️ **Topology & Infrastructure (Packet Tracer)**
-![Packet Tracer Topology](https://github.com/MuhammadSameedKhattak/VoIP-Enterprise-Architecture-Analys/blob/main/Screenshot%20from%202026-04-26%2005-21-12.png?raw=true.png)
-* Configured Voice VLANs to separate telephony traffic from standard data.
-* Deployed DHCP pools with Option 150 to direct endpoints to the TFTP server.
-* Configured Layer 3 Dial-Peers to establish call routing between extensions.
 
+![Packet Tracer Topology](your-topology-image-name.png)
 
+* **Infrastructure**: Built using a Cisco 2811 Router (CME) and 2960 Switch.
+* **Voice VLANs**: Configured to separate telephony traffic from standard data.
+* **DHCP Option 150**: Deployed to direct endpoints to the TFTP server for configuration.
+* **Dial-Peers**: Configured Layer 3 routing between extensions 1001 and 1002.
+
+![Phones Connected](your-connected-phones-image-name.png)
+*Visual confirmation of successful registration and active call connection.*
+
+---
 
 🔍 **Live Traffic Analysis (Wireshark)**
-![SIP Signaling Analysis](https://github.com/MuhammadSameedKhattak/VoIP-Enterprise-Architecture-Analys/blob/main/Screenshot%20from%202026-04-26%2005-24-10.png?raw=true.png)
-* Captured and analyzed live SIP signaling, verifying the 3-way handshake (`INVITE`, `200 OK`, `ACK`) and graceful session teardown. 
-* Monitored RTP UDP streams to confirm zero packet loss and acceptable jitter thresholds, simulating standard NOC troubleshooting procedures for degraded audio issues.
+
+![SIP Signaling Analysis](your-wireshark-image-name.png)
+
+* **SIP Handshake**: Captured and analyzed live signaling on Ubuntu loopback interface.
+* **Protocol Flow**: Verified the sequence of `INVITE`, `180 Ringing`, and `CANCEL` teardown.
+* **NOC Troubleshooting**: Demonstrates the ability to diagnose call setup failures at the packet level.
