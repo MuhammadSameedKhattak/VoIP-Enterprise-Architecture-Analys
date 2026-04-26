@@ -7,7 +7,7 @@ Designed and deployed a Cisco Call Manager Express (CME) environment to establis
 
 🏗️ **Topology & Infrastructure (Packet Tracer)**
 
-![Packet Tracer Topology](your-topology-image-name.png)
+![Packet Tracer Topology](https://github.com/MuhammadSameedKhattak/VoIP-Enterprise-Architecture-Analys/blob/main/Screenshot%20from%202026-04-26%2005-21-12.png?raw=true.png)
 
 * **Infrastructure**: Built using a Cisco 2811 Router (CME) and 2960 Switch.
 * **Voice VLANs**: Configured to separate telephony traffic from standard data.
