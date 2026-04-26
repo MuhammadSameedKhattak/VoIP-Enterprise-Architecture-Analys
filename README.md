@@ -9,6 +9,8 @@ Designed and deployed a Cisco Call Manager Express (CME) environment to establis
 * Deployed DHCP pools with Option 150 to direct endpoints to the TFTP server.
 * Configured Layer 3 Dial-Peers to establish call routing between extensions.
 
+
+
 🔍 **Live Traffic Analysis (Wireshark)**
 ![SIP Signaling Analysis](put-your-wireshark-sip-filename-here.png)
 * Captured and analyzed live SIP signaling, verifying the 3-way handshake (`INVITE`, `200 OK`, `ACK`) and graceful session teardown. 
