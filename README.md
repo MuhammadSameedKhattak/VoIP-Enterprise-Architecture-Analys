@@ -12,6 +12,6 @@ Designed and deployed a Cisco Call Manager Express (CME) environment to establis
 
 
 🔍 **Live Traffic Analysis (Wireshark)**
-![SIP Signaling Analysis](put-your-wireshark-sip-filename-here.png)
+![SIP Signaling Analysis]([put-your-wireshark-sip-filename-here](https://github.com/MuhammadSameedKhattak/VoIP-Enterprise-Architecture-Analys/blob/main/Screenshot%20from%202026-04-26%2005-24-10.png?raw=true).png)
 * Captured and analyzed live SIP signaling, verifying the 3-way handshake (`INVITE`, `200 OK`, `ACK`) and graceful session teardown. 
 * Monitored RTP UDP streams to confirm zero packet loss and acceptable jitter thresholds, simulating standard NOC troubleshooting procedures for degraded audio issues.
