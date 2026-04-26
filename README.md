@@ -21,7 +21,7 @@ Designed and deployed a Cisco Call Manager Express (CME) environment to establis
 
 🔍 **Live Traffic Analysis (Wireshark)**
 
-![SIP Signaling Analysis](your-wireshark-image-name.png)
+![SIP Signaling Analysis](https://github.com/MuhammadSameedKhattak/VoIP-Enterprise-Architecture-Analys/blob/main/Screenshot%20from%202026-04-26%2005-24-10.png?raw=true.png)
 
 * **SIP Handshake**: Captured and analyzed live signaling on Ubuntu loopback interface.
 * **Protocol Flow**: Verified the sequence of `INVITE`, `180 Ringing`, and `CANCEL` teardown.
